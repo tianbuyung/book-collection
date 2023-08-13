@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "description": "It is a story about Harry Potter, an orphan brought up by his aunt and uncle because his parents were killed when he was a baby. Harry is unloved by his uncle and aunt but everything changes when he is invited to join Hogwarts School of Witchcraft and Wizardry and he finds out he's a wizard.",
+    "author": {
+      "name": "J. K. Rowling",
+      "yearOfBirth": 1965
+    },
+    "ISBN": "978-0-7475-3269-9",
+    "published": 1997,
+    "publisher": "Bloomsbury"
+  }
+]
