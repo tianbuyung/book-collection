@@ -9,5 +9,16 @@
     "ISBN": "978-0-7475-3269-9",
     "published": 1997,
     "publisher": "Bloomsbury"
+  },
+  {
+    "title": "Garis Waktu",
+    "description": "Garis Waktu adalah novel karya Fiersa Besari pada tahun 2016 yang diterbitkan oleh Media Kita. Pada tahun 2021, novel ini diadaptasi menjadi sebuah film oleh Dapur Film dan MD Pictures dengan judul sama",
+    "author": {
+      "name": "Fiersa Besari",
+      "yearOfBirth": 1984
+    },
+    "ISBN": "978-979-794-525-1",
+    "published": 2016,
+    "publisher": "Media Kita"
   }
 ]
