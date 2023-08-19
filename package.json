@@ -5,14 +5,15 @@
   "main": "calculator.js",
   "scripts": {
     "test": "books",
-    "server":"serve.json"
+    "start":"node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "00-dev"
+    "url": "https://github.com/tianbuyung/book-collection.git"
   },
   "keywords": [
-    "npm"
+    "npm",
+    "node.js"
   ],
   "author": "mufty",
   "license": "ISC",
