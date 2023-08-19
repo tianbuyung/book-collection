@@ -1,0 +1,24 @@
+{
+  "name": "book-collection",
+  "version": "1.0.0",
+  "description": "books",
+  "main": "calculator.js",
+  "scripts": {
+    "start": "node server.js",
+    "develop": "nodemon server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tianbuyung/book-collection.git"
+  },
+  "keywords": [
+    "npm",
+    "node.js"
+  ],
+  "author": "mufty",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
