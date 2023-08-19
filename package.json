@@ -4,8 +4,9 @@
   "description": "books",
   "main": "calculator.js",
   "scripts": {
-    "test": "books",
-    "start":"node server.js"
+    "start": "node server.js",
+    "develop": "nodemon server.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",

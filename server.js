@@ -6,7 +6,7 @@ const books = JSON.parse(fs.readFileSync(
     "utf-8")
     );
 console.log(books);
-console.log(typeof books);
+//console.log(typeof books);
 
 
 const errors = fs.readFileSync(
