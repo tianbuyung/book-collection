@@ -140,10 +140,10 @@ const server = http.createServer((req, res) => {
     //     res.end();
     //     break;
 
-    //   case "www-page.html":
-    //     res.writeHead(301, { Location: "/" });
-    //     res.end();
-    //     break;
+      // case "www-page.html":
+      //   res.writeHead(301, { Location: "/" });
+      //   res.end();
+      //   break;
 
       default:
         // serve a 404 response
