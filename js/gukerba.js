@@ -21,6 +21,23 @@ class Game {
     }
     return this.result;
   }
+
+  // user(){
+  //   const pilihan = document.querySelectorAll("li img");
+  //   for (let index = 0; index < pilihan.length; index++) {
+  //     userClick[index].addEventListener("click", () => {
+  //       if (this.gameIsStarted === false) {
+  //         if (this.userChoiceValue == null) {
+  //           this.userChoiceValue = index;
+  //         }
+  //         this.styling(userClick[index]);
+  //         this.comChoiceValue = this.generateComputerChoice();
+  //         this.whoIsWin(this.userChoiceValue, this.comChoiceValue);
+  //         this.gameIsStarted = true;
+  //       }
+  //     });
+  //   }
+  // }
 }
 
 const pilihan = document.querySelectorAll("li img");
@@ -37,9 +54,6 @@ pilihan.forEach(function (pil) {
     info.innerHTML = result;
   });
 });
-
-
-
 
 // pilihan.forEach(function (pil) {
 //   pil.addEventListener("click", function () {
