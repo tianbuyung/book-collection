@@ -8,7 +8,8 @@ const path = require("path")
 // console.log(books);
 //console.log(typeof books);
 
-fs.readFile(
+const membacaFile = () =>{
+  fs.readFile(
     path.join(__dirname, "books.json"),
     "utf-8",
     (err, data) => {
@@ -32,4 +33,10 @@ fs.readFile(
       }
       console.log(errors);
     }
+
   );
+  
+}  
+
+
+  module.exports = membacaFile

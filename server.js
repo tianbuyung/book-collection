@@ -7,6 +7,10 @@ const fsPromises = require("fs").promises;
 
 // custom modules
 const logEvents = require("./logEvents");
+const membacaFile = require("./readBook");
+
+membacaFile();
+
 
 class Emitter extends EventEmitter {}
 
@@ -56,16 +60,15 @@ const server = http.createServer((req, res) => {
   console.log(req.url, req.method);
   myEmitter.emit("log", `${req.url}\t${req.method}`, "reqLog.txt");
 
-  if (req.url === "/game") {
-    res.statusCode = 200;
-    res.setHeader("Content-Type", "text/html");
-    const filePath = path.join(__dirname, "views", "index.html");
-    fs.readFile(filePath, (err, data) => {
-      if (err) console.error(err);
-
-      res.end(data);
-    });
-  }
+  // if (req.url === "/game") {
+  //   res.statusCode = 200;
+  //   res.setHeader("Content-Type", "text/html");
+  //   const filePath = path.join(__dirname, "views", "index.html");
+  //   fs.readFile(filePath, (err, data) => {
+  //     if (err) console.error(err);
+  //     res.end(data);
+  //   });
+  // }
 
   // switch (req.url) {
   //   case "/":
@@ -73,13 +76,10 @@ const server = http.createServer((req, res) => {
   //     const filePath = path.join(__dirname, "views", "index.html");
   //     fs.readFile(filePath, (err, data) => {
   //       if (err) console.error(err);
-
   //       res.end(data);
   //     });
   //     break;
   // }
-
-  
 
   const extension = path.extname(req.url);
 
@@ -135,13 +135,13 @@ const server = http.createServer((req, res) => {
     // console.log(path.parse(filePath).base);
     switch (path.parse(filePath).base) {
       // 301
-    //   case "old-page.html":
-    //     res.writeHead(301, { Location: "/new-page.html" });
-    //     res.end();
-    //     break;
+      //   case "old-page.html":
+      //     res.writeHead(301, { Location: "/new-page.html" });
+      //     res.end();
+      //     break;
 
-      // case "www-page.html":
-      //   res.writeHead(301, { Location: "/" });
+      // case "game.html":
+      //   res.writeHead(200, { Location: "/game" });
       //   res.end();
       //   break;
 
