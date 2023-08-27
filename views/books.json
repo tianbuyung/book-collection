@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "description": "It is a story about Harry Potter, an orphan brought up by his aunt and uncle because his parents were killed when he was a baby. Harry is unloved by his uncle and aunt but everything changes when he is invited to join Hogwarts School of Witchcraft and Wizardry and he finds out he's a wizard.",
+    "author": {
+      "name": "J. K. Rowling",
+      "yearOfBirth": 1965
+    },
+    "ISBN": "978-0-7475-3269-9",
+    "published": 1997,
+    "publisher": "Bloomsbury"
+  },
+  {
+    "title": "Garis Waktu",
+    "description": "Garis Waktu adalah novel karya Fiersa Besari pada tahun 2016 yang diterbitkan oleh Media Kita. Pada tahun 2021, novel ini diadaptasi menjadi sebuah film oleh Dapur Film dan MD Pictures dengan judul sama",
+    "author": {
+      "name": "Fiersa Besari",
+      "yearOfBirth": 1984
+    },
+    "ISBN": "978-979-794-525-1",
+    "published": 2016,
+    "publisher": "Media Kita"
+  },
+  {
+    "title": "One Piece, Vol. 1: Romance Dawn",
+    "description": "Join Monkey D. Luffy and his swashbuckling crew in their search for the ultimate treasure, One Piece! As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber…at the cost of never being able to swim again! Years, later, Luffy sets off in search of the “One Piece,” said to be the greatest treasure in the world... As a child, Monkey D. Luffy was inspired to become a pirate by listening to the tales of the buccaneer 'Red-Haired' Shanks. But his life changed when Luffy accidentally ate the Gum-Gum Devil Fruit and gained the power to stretch like rubber...at the cost of never being able to swim again! Years later, still vowing to become the king of the pirates, Luffy sets out on his adventure...one guy alone in a rowboat, in search of the legendary 'One Piece', said to be the greatest treasure in the world...",
+    "author": {
+      "name": "Eiichiro Oda",
+      "yearOfBirth": 1975
+    },
+    "ISBN": "978-1569319017",
+    "published": 2003,
+    "publisher": "VIZ Media LLC"
+  },
+  {
+    "title": "The Adventures of Sherlock Holmes",
+    "description": "In general the stories in The Adventures of Sherlock Holmes identify, and try to correct, social injustices. Holmes is portrayed as offering a new, fairer sense of justice.",
+    "author": {
+      "name": "Arthur Conan Doyle",
+      "yearOfBirth": 1887
+    },
+    "ISBN": "9781407172521",
+    "published": 1892,
+    "publisher": "George Newnes"
+  },
+  {
+    "title": "Arsène Lupin versus Herlock Sholmes",
+    "description": "Arsène Lupin versus Herlock Sholmes is the second collection of Arsène Lupin stories written by Maurice Leblanc, featuring two adventures following a match of wits between Lupin and Herlock Sholmes.",
+    "author": {
+      "name": "Maurice Leblanc",
+      "yearOfBirth": 1864
+    },
+    "ISBN": "978-1847495617",
+    "published": 1908,
+    "publisher": "Alma Classics"
+  },
+  {
+    "title": "Naruto, Vol. 1: Uzumaki Naruto",
+    "description": "Naruto is a ninja-in-training with an incorrigible knack for mischief. His wild antics amuse his teammates, but Naruto is completely serious about one thing: becoming the world's greatest ninja!",
+    "author": {
+      "name": "Masashi Kishimoto",
+      "yearOfBirth": 1974
+    },
+    "ISBN": "9781569319000",
+    "published": 1999,
+    "publisher": "VIZ Media"
+  },
+  {
+    "title": "Detektif Conan Spesial Vol. 1",
+    "description": "The Detective Boys reminisces of the Hatoyama Farm Case and talks about the new rabbit at their school. On the other hand, Haibara hears the words 'Face, Black, Sherry' and starts thinking of the Black Organization with a frightened face. Conan tapped her shoulder and asks what's wrong, but Haibara replies 'Nothing!'.",
+    "author": {
+      "name": "Gosho Aoyama",
+      "yearOfBirth": 1963
+    },
+    "ISBN": "9792021256",
+    "published": 2001,
+    "publisher": "Elex Media Komputindo"
+  },
+  {
+    "title": "Slam Dunk",
+    "description": "Slam Dunk centers around Hanamichi Sakuragi, who starts as a delinquent outcast, becoming the leader of a gang. ",
+    "author": {
+      "name": "Takehiko Inoue",
+      "yearOfBirth": 1967
+    },
+    "ISBN": "978-1-4215-0679-1",
+    "published": 1991,
+    "publisher": "Viz Media"
+  }
+]
